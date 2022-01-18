@@ -1,8 +1,12 @@
 body {
  background-color: rgb(90, 15, 141);
  font: normal 10pt Arial;
+ width: 380px;
 }
-
+html {
+    width: 400px;
+    height: 800px;
+}
 
 header {
 color: white;
@@ -10,6 +14,8 @@ text-align: center;
 }
 
 section {
+
+display: center;
 background-color: white;
 border-radius: 30px;
 padding: 15px;
@@ -19,7 +25,7 @@ margin: auto;
 box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.699);
 }
 
-/*select {overflow:hidden;}*/
+
 
 
 #txtinicio {
@@ -85,7 +91,7 @@ h1 {
 #seltab {
     padding: auto;
     margin-top: auto;
-    height: 9cm;
+    height: 7.5cm;
     align-items: center;
 }
 footer {
@@ -120,46 +126,13 @@ figure.cx-fotos-portugal form select{
     padding: 4px;
     border: 1px solid #b9bdc1; 
     color: black; 
-    height: 40px;
-}
-
-figure.cx-fotos-portugal form select option{
-    font-size: 20px;
-    padding: 3px;
-    border: 1px solid #b9bdc1; 
-    color: black; 
     height: 25px;
 }
 
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-    h1 {
-        font: normal 25pt Arial;
-        text-align: center;
-      }
+figure.cx-fotos-portugal form select option{
+    font-size: 15px;
+    padding: 3px;
+    border: 1px solid #b9bdc1; 
+    color: black; 
+    height: 8px;
 }
-  
-  /********** Medium devices only **********/
-  @media (min-width: 992px) and (max-width: 1199px) {
-    h1 {
-        font: normal 25pt Arial;
-        text-align: center;
-      }
-}
-  /********** Small devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
-    h1 {
-        font: normal 25pt Arial;
-        text-align: center;
-      }
-}
-  
-  /********** Extra small devices only **********/
-  @media (max-width: 767px) {
-    h1 {
-        font: normal 25pt Arial;
-        text-align: center;
-      }
-}
-
-  
