@@ -1,0 +1,165 @@
+body {
+ background-color: rgb(90, 15, 141);
+ font: normal 10pt Arial;
+}
+
+
+header {
+color: white;
+text-align: center;
+}
+
+section {
+background-color: white;
+border-radius: 30px;
+padding: 15px;
+width: 250px;
+height: 500px;
+margin: auto;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.699);
+}
+
+/*select {overflow:hidden;}*/
+
+
+#txtinicio {
+    height: 0.5cm;
+    width: 1cm;
+    margin: 0cm;
+    padding: 1px;
+    
+}
+
+#txtfim {
+    height: 0.5cm;
+    width: 1cm;
+    margin: 0cm;
+    padding: 1px;
+}
+
+#txtpasso {
+    height: 0.5cm;
+    width: 1cm;
+    margin: 0cm;
+    padding: 1px;
+}
+
+
+
+h1 {
+    
+    text-align: right;
+}
+#dia {
+    text-shadow: 0 0 5px black;
+    /*-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;*/
+    display: inline-block;
+    
+} 
+#par {
+    font: normal 15pt Arial;
+    text-align: center;
+}
+#res {
+    font: normal 15pt Arial;
+    text-align: center;
+}
+#tabu {
+    margin-top: 1cm;
+    text-align: center;
+    
+
+}
+#cont {
+    height: 20px;
+    font: normal 10pt Arial;
+    text-align: center;
+}
+
+#rodape {
+    letter-spacing: .2rem;
+    padding-top: 0cm;
+    
+}
+#seltab {
+    padding: auto;
+    margin-top: auto;
+    height: 9cm;
+    align-items: center;
+}
+footer {
+color: white;
+text-align: center;
+}
+figure.cx-fotos-portugal{
+    margin: 0 auto;
+    margin-top: 1cm;
+    width: 10cm;
+    display: block;
+    height: 5cm;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figure.cx-fotos-portugal form{
+    position: relative;
+    padding: 1px;
+    margin-top: 0cm;
+    margin-left: -3cm;
+   align-items: center;
+   display: inline-block;
+    border-radius: 10px;
+}
+
+figure.cx-fotos-portugal form select{
+    font-size: 15px;
+    margin-top: 1cm;
+    align-items: center;
+    padding: 4px;
+    border: 1px solid #b9bdc1; 
+    color: black; 
+    height: 40px;
+}
+
+figure.cx-fotos-portugal form select option{
+    font-size: 20px;
+    padding: 3px;
+    border: 1px solid #b9bdc1; 
+    color: black; 
+    height: 25px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    h1 {
+        font: normal 25pt Arial;
+        text-align: center;
+      }
+}
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font: normal 25pt Arial;
+        text-align: center;
+      }
+}
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font: normal 25pt Arial;
+        text-align: center;
+      }
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    h1 {
+        font: normal 25pt Arial;
+        text-align: center;
+      }
+}
+
+  
